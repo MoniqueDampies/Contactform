@@ -35,9 +35,6 @@ button {
 a {text-decoration: none;
 color: black;}
 
-.login-form-field {
-    display: block
-}
 
 .navbar {
     overflow: hidden;
@@ -60,7 +57,7 @@ color: black;}
     border-radius: 20px;
 }
 
-h4 {
+h3 {
     background-color: #ffcab0;
     width: fit-content;
 }
@@ -80,7 +77,42 @@ h2:hover{
     transition: 1s;
 }
 
-
+input[type=submit] {
+    background-color: #ffcab0;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: left;
+  }
+  input[type=submit]:hover {
+    background-color: #ff6f3c;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #0C0A0A;
+    color: #ff6f3c;
+    padding: 22px;
+    width: 55%;
+  }
+   /* setting up of columns */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+  }
+  .col-75 {
+    float: left;
+    width: 68%;
+    margin-top: 5px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
 

@@ -87,7 +87,7 @@
                 voluptatibus omnis natus. Facere quam magni officia eum consequuntur
                 quibusdam!
             </p>
-            <img src="/images/flowerfield.jpg"alt="flowerfield" width="50%" height="50%" />
+            <img src="/images/flowerfield.jpg" alt="flowerfield" width="50%" height="50%" />
         </section>
 
         <!--contact section-->
@@ -103,7 +103,7 @@
                 </ul>
             </nav>
             <br />
-            <h2>Contact Us</h2>
+            <h2>Get in contact with us</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa
                 vel, accusamus eum eaque hic tenetur ipsam, fuga inventore, nulla
@@ -124,29 +124,43 @@
             </p>
         </section>
         <br />
-        <h4>Please provide your details.</h4>
+        <h3>Please provide your details.</h3>
         <br />
         <!--form section-->
-
-        <form>
-            <label for="fname">First name:</label>
-            <input type="text" name="name" id="username-field" class="login-form-field" placeholder="enter your name" />
-
-            <label for="lname">Last name:</label>
-            <input type="text" name="surname" id="username-field" class="login-form-field"
-                placeholder="enter your surname" />
-            <label for="email">E-mail:</label>
-            <input type="text" name="email" id="email-field" class="login-form-field"
-                placeholder="enter your email address" />
-            <p></p>
-            <p>Enter your message</p>
-            <textarea name="message"></textarea><br />
-            <button type="submit">Submit</button><br />
-        </form>
-        <img src="/images/waterfall.jpg" alt="waterfall" width="50%" height="20%" />
+        <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+          </form>
+        </div>
+        <img src="/images/car.gif.gif" alt="car gif" width="30%" height="30%" />
     </main>
     <footer>
-        <h4>this is content for the footer.</h4>
+        <p>Copyright &copy; 2022</p>
     </footer>
 </body>
 
